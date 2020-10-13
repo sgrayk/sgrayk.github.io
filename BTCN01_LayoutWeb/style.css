@@ -38,3 +38,74 @@ body {
 	font-size: 25px;
 	right: 0px;
 }
+
+.container {
+	position: relative;
+}
+
+.tour-info {
+	position: absolute;
+	width: 100%;
+	min-height: 30vh;
+}
+.content-info {
+	position: absolute;
+	width: 48%;
+	min-height: 30vh;
+}
+.content-info-text {
+	padding: 2em;
+	min-height: 30vh;
+}
+.CTA-Button {
+	min-height: 30vh;
+}
+.CTA-Button-purchase {
+	background-color: orange;
+	border-radius: 100px;
+	border: transparent;
+	width: 40%;
+	height: 3em;
+	margin: 10px;
+
+}
+.CTA-Button-taketour {
+	border-radius: 100px;
+	border: transparent;
+	width: 40%;
+	height: 3em;
+	margin: 10px;
+}
+.or-text {
+	width: 5%;
+	display: inline-block;
+	margin: 10px;
+}
+
+.images-list-info {
+	position: absolute;
+	right: 0px;
+	width: 48%;
+	min-height: 30vh;
+}
+.images-slide {
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+.button-slide-display-left {
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	height: 4em;
+	top: 150px;
+}
+.button-slide-display-right {
+	position: absolute;
+	z-index: 1;
+	right: 0px;
+	height: 4em;
+	top: 150px;
+}
