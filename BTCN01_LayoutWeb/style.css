@@ -16,6 +16,13 @@ body {
 	position: relative;
 	background-color: #EAEAEA;
 }
+button {
+	border: none;
+	outline: none;
+}
+/*button : hover {
+	background-color: blue !important;
+}*/
 hr {
 	background-color: white;
 }
