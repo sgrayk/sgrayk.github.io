@@ -23,10 +23,6 @@ hr {
 .header {
 	position: relative;
 	background-color: white;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #F3F3F3;
-	padding: 2em;
 }
 
 .search_input {
@@ -34,7 +30,6 @@ hr {
 	color: gray;
 	margin-left: 5vw;
 	font-size: 15px;
-	width: 30%;
 
 }
 .search_input : visited-visible {
@@ -50,22 +45,18 @@ hr {
 .phone-number{
 	position: absolute;
 	font-size: 25px;
-	right: 2em;
+	right: 0px;
 }
 
 .container {
 	position: relative;
 	background-color: white;
-	width: 100%;
 }
 
 .tour-info {
 	position: relative;
 	width: 100%;
 	min-height: 430px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #F3F3F3;
 }
 .content-info {
 	position: absolute;
@@ -136,9 +127,6 @@ hr {
 	width: 100%;
 	/*min-height: 250px;*/
 	background-color: white;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #F3F3F3;
 }
 
 ._1st-advantage, ._2nd-advantage, ._3rd-advantage {
@@ -162,26 +150,15 @@ hr {
 	width: 60%;
 }
 
-.features-div {	
-	position: relative;
-	float: left;
-	/*width: 96%;*/
-	/*margin: 10px 2%;*/
-	/*background-color: gray;*/
-	/*min-height: 100px;*/
-	background-color: white;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #F3F3F3;
-}
 
 .features {
 	position: relative;
 	float: left;
-	width: 100%;
+	width: 96%;
+	margin: 10px 2%;
 	/*background-color: gray;*/
 	min-height: 100px;
-	/*background-color: white;*/
+	background-color: white;
 }
 .info-features {
 	position: relative;
@@ -209,26 +186,14 @@ hr {
 }
 
 
-.screenshots-div {	
+.screenshots {
 	position: relative;
 	float: left;
 	width: 100%;
 	min-height: 100px;
 	/*background-color: gray;*/
-	/*margin-bottom: 3em;*/
+	margin-bottom: 3em;
 	background-color: white;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #F3F3F3;
-}
-.screenshots {
-	position: relative;
-	float: left;
-	width: 90%;
-	margin: 10px 5%;
-	min-height: 100px;
-	/*background-color: gray;*/
-	/*margin-bottom: 3em;*/
 }
 .tittle-screenshots {
 	position: relative;
@@ -252,12 +217,7 @@ hr {
 }
 
 
-.feedback-div {	
-	position: relative;
-	float: left;
-	background-color: white;
-	width: 100%;
-}
+
 .feedback {
 	position: relative;
 	float: left;
@@ -265,6 +225,7 @@ hr {
 	min-height: 100px;
 	/*background-color: blue;*/
 	margin: 10px 5% 3em 5%;
+	background-color: white;
 
 }
 .tittle-feedback {
@@ -307,19 +268,15 @@ hr {
 }
 
 
-.button-bottom-div {
-	position: relative;
-	float: left;
-	width: 100%;
-	background-color: white;
-}
+
 .button-bottom {
 	position: relative;
 	float: left;
 	min-height: 100px;
 	/*background-color: red;*/
 	width: 50%;
-	margin: 0 25% 0 25%;
+	margin: 10px 25% 1.5em 25%;
+	background-color: white;
 
 }
 
@@ -331,7 +288,7 @@ hr {
 	width: 100%;
 	min-height: 100px;
 	/*background-color: red; */
-	/*margin-bottom: 2em;*/
+	margin-bottom: 2em;
 	background-image: url("./images/images/background_prefooter.png");
 	background-color: white;
 }
@@ -365,50 +322,12 @@ hr {
 
 
 footer {
-	position: relative;
-	float: left;
-	width: 100%;
-	background-color: #222222;
-}
-.copyright {
-	position: relative;
-	width: 46%;
-	float: left;
-	margin: 0.5em 2%;
-	/*min-height: 100px;*/
-	/*background-color: red;*/
-}
-.copyright p {
-	color: white;
-}
-.media-icon {
-	position: relative;
-	width: 48%;
-	float: left;
-	/*min-height: 100px;*/
-	/*background-color: red;*/
-	margin-right: 2%;
-}
-.media-icon-logo {
-	position: relative;
-	width: 5%;
-	float: right;
-	margin: 1.3em 1%;
+	
+	background-color: white;
 }
 
-.author {
-	color: orange;
-	text-decoration: none;
-}
-.author : hover {
-	color: orange;
-}
 /*
 .x {
 	
 }
 */
-
-.remove_event_pointer {
-	pointer-events: none;
-}
