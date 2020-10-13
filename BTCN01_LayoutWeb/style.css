@@ -14,6 +14,7 @@ input, input:hover, input:focus, input:active {
 body {
 	margin: 3vw 30vh 3vw 30vh;
 	position: relative;
+	background-color: white;
 }
 
 .header {
@@ -68,7 +69,8 @@ body {
 	width: 40%;
 	height: 3em;
 	margin: 10px;
-
+	font-weight: bold;
+	box-shadow: 2px 2px 5px #585c5e;
 }
 .CTA-Button-taketour {
 	border-radius: 100px;
@@ -76,6 +78,8 @@ body {
 	width: 40%;
 	height: 3em;
 	margin: 10px;
+	font-weight: bold;
+	box-shadow: 2px 2px 5px #585c5e;
 }
 .or-text {
 	width: 5%;
@@ -196,9 +200,9 @@ body {
 .list-screenshots {
 	position: relative;
 	float: left;
-	width: 20%;
+	width: 22%;
 	height: auto;
-	margin: 5px 2.5% 35px 2.5%;
+	margin: 5px 1.5%;
 }
 .list-screenshots img {
 	width: 100%;
@@ -207,11 +211,89 @@ body {
 
 
 .feedback {
+	position: relative;
+	float: left;
+	width: 90%;
+	min-height: 100px;
+	/*background-color: blue;*/
+	margin: 10px 5% 3em 5%;
 
 }
 .tittle-feedback {
 
 }
 .content-feedback {
+
+}
+.content-feedback-quote {
+	position: relative;
+	min-height: 100px;
+	/*background-color: red;*/
+}
+.content-feedback-quote img {
+	z-index: 0;
+	position: absolute;
+	width: 90%;
+	height: 130%;
+	/*box-shadow: 2px 2px 5px #65696b;*/
+}
+.content-feedback-quote-content {
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	width: 80%;
+	color: #43494d;
+}
+.content-feedback-info-person {
+	position: relative;
+	margin: 3px 5em 0.5em 3em;
+}
+.content-feedback-name-person {
+	position: relative;
+	float: left;
+}
+.content-feedback-comp-person {
+	position: relative;
+	float: left;
+	color: #65696b;
+}
+
+
+
+.button-bottom {
+	position: relative;
+	float: left;
+	min-height: 100px;
+	/*background-color: red;*/
+	width: 50%;
+	margin: 10px 25% 1.5em 25%;
+
+}
+
+
+
+.prefooter {
+	position: relative;
+	float: left;
+	width: 100%;
+	min-height: 100px;
+	/*background-color: red; */
+	/*margin-bottom: 2em;*/
+}
+.payment-method, .get-in-touch, .design-details, .logo-slogan {
+	position: relative;
+	float: left;
+	width: 23%;
+	margin: 10px 1%;
+	background-color: red;
+	min-height: 100px;
+}
+
+
+
+
+/*
+.x {
 	
 }
+*/
