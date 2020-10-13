@@ -295,7 +295,19 @@ body {
 	/*background-color: red;*/
 	min-height: 100px;
 }
-
+.card {
+	margin: 5px;
+}
+.logo-slogan-logo {
+	position: absolute;
+	width: 60%;
+	margin: 20%;
+}
+.logo-slogan-shadow {
+	position: absolute;	
+	width: 60%;
+	margin: 35% 20%;
+}
 
 
 
