@@ -3,13 +3,17 @@ a, a:hover, a:focus, a:active {
       text-decoration: none;
       color: red;
 }
+/*ul {
+	list-style-type: none;
+}*/
 
 input, input:hover, input:focus, input:active {
       outline: none;
  }
 
 body {
-	margin: 3vw 15vh 3vw 15vh;
+	margin: 3vw 30vh 3vw 30vh;
+	position: relative;
 }
 
 .header {
@@ -44,21 +48,18 @@ body {
 }
 
 .tour-info {
-	position: absolute;
+	position: relative;
 	width: 100%;
-	min-height: 30vh;
+	min-height: 430px;
 }
 .content-info {
 	position: absolute;
 	width: 48%;
-	min-height: 30vh;
 }
 .content-info-text {
 	padding: 2em;
-	min-height: 30vh;
 }
 .CTA-Button {
-	min-height: 30vh;
 }
 .CTA-Button-purchase {
 	background-color: orange;
@@ -86,7 +87,6 @@ body {
 	position: absolute;
 	right: 0px;
 	width: 48%;
-	min-height: 30vh;
 }
 .images-slide {
 	position: absolute;
@@ -101,6 +101,7 @@ body {
 	left: 0px;
 	height: 4em;
 	top: 150px;
+	margin-top: 3%;
 }
 .button-slide-display-right {
 	position: absolute;
@@ -108,4 +109,109 @@ body {
 	right: 0px;
 	height: 4em;
 	top: 150px;
+	margin-top: 3%;
+}
+
+.advantage-info {
+	position: relative;
+	float: left;
+	width: 100%;
+	/*min-height: 250px;*/
+}
+
+._1st-advantage, ._2nd-advantage, ._3rd-advantage {
+	float: left;
+	position: relative;
+	width: 30%;
+	/*min-height: 100px;*/
+	margin: 20px 1.6%;
+
+}
+.img-advantage {
+	float: left;
+	position: relative;	
+	width: 20%;
+	margin: 10px 0 10px 5%;
+	padding-top: 15%;
+}
+.info-advantage {
+	float: left;
+	position: relative;
+	width: 60%;
+}
+
+
+.features {
+	position: relative;
+	float: left;
+	width: 96%;
+	margin: 10px 2%;
+	/*background-color: gray;*/
+	min-height: 100px;
+}
+.info-features {
+	position: relative;
+	float: left;
+	width: 58%;
+	margin: 10px 3%;
+}
+.tittle-feature-info {
+	/*margin: 15px*/
+}
+.content-feature-info {
+
+}
+.list-features {
+	position: relative;
+	float: left;
+	width: 30%;
+	margin: 10px 3%;
+}
+.list-features ul {
+	list-style-type: none;
+}
+.list-features ul li {
+	margin: 4% 5px;
+}
+
+
+.screenshots {
+	position: relative;
+	float: left;
+	width: 100%;
+	min-height: 100px;
+	/*background-color: gray;*/
+	margin-bottom: 3em;
+}
+.tittle-screenshots {
+	position: relative;
+	width: 100%;
+}
+.content-screenshots {
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
+.list-screenshots {
+	position: relative;
+	float: left;
+	width: 20%;
+	height: auto;
+	margin: 5px 2.5% 35px 2.5%;
+}
+.list-screenshots img {
+	width: 100%;
+}
+
+
+
+.feedback {
+
+}
+.tittle-feedback {
+
+}
+.content-feedback {
+	
 }
