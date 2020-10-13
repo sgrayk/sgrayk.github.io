@@ -1,0 +1,40 @@
+
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: red;
+}
+
+input, input:hover, input:focus, input:active {
+      outline: none;
+ }
+
+body {
+	margin: 3vw 15vh 3vw 15vh;
+}
+
+.header {
+	position: relative;
+}
+
+.search_input {
+	border: transparent;
+	color: gray;
+	margin-left: 5vw;
+	font-size: 15px;
+
+}
+.search_input : visited-visible {
+	border: transparent;
+}
+
+.namePage_text {
+	font-size: 35px;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+.phone-number{
+	position: absolute;
+	font-size: 25px;
+	right: 0px;
+}
