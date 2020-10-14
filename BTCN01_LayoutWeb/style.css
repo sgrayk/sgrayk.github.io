@@ -1,7 +1,7 @@
 
 a, a:hover, a:focus, a:active {
-      text-decoration: none;
-      color: red;
+  text-decoration: none;
+  color: red;
 }
 /*ul {
 	list-style-type: none;
@@ -92,6 +92,7 @@ hr {
 	margin: 10px;
 	font-weight: bold;
 	box-shadow: 2px 2px 5px #585c5e;
+	background-image: linear-gradient(to top, #FF5900, #FCAD39);
 }
 .CTA-Button-taketour {
 	border-radius: 100px;
@@ -101,11 +102,24 @@ hr {
 	margin: 10px;
 	font-weight: bold;
 	box-shadow: 2px 2px 5px #585c5e;
+	background-color: #EBEBEB;
+	background-image: linear-gradient(to top, #DDDDDD, #F1F1F1);
 }
+
+.CTA-Button-purchase:hover {
+	/*background-color: #EB9800;*/
+	background-image: linear-gradient(to top, #D94C00, #D49130);
+}
+.CTA-Button-taketour:hover {
+	/*background-color: #CCCCCC;*/
+	background-image: linear-gradient(to top, #ADADAD, #C4C4C4);
+}
+
 .or-text {
 	width: 5%;
 	display: inline-block;
 	margin: 10px;
+	font-weight: bold;
 }
 
 .images-list-info {
@@ -407,8 +421,16 @@ footer {
 	color: orange;
 	text-decoration: none;
 }
-.author : hover {
-	color: orange;
+.author:hover {
+	color: red;
+}
+
+/*.images-class {
+	position: absolute;
+	width: 300px;
+}*/
+.images-class:hover {
+	cursor: pointer;
 }
 /*
 .x {
