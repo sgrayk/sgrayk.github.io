@@ -256,10 +256,11 @@ hr {
 	width: 100%;
 }
 .content-screenshots {
+	/*display: flex;*/
 	position: relative;
 	float: left;
 	width: 100%;
-
+	min-height: 150px;
 }
 .list-screenshots {
 	position: relative;
@@ -425,11 +426,17 @@ footer {
 	color: red;
 }
 
-/*.images-class {
+.images-class {
 	position: absolute;
-	width: 300px;
-}*/
+	/*width: 300px;*/
+}
 .images-class:hover {
+	cursor: pointer;
+}
+.images-class-blur {
+	position: absolute;
+}
+.images-class-blur:hover {
 	cursor: pointer;
 }
 /*
