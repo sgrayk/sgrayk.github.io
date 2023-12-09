@@ -3,6 +3,10 @@ sgrayk.github.io
 
 This blog page is created to document the knowledge I've acquired, serving as a foundation for continuous learning and the exploration of new topics.
 
+# Deloy App
+> npm run deploy -- -m "Deploy React app to GitHub Pages"
+After deploying, it will be in branch: `gh-pages`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
